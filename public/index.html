@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Love PDF Converter • Website for o nith</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="top">
+    <div class="brand">
+      <div class="logo">❤</div>
+      <div>
+        <h1>Love PDF Converter</h1>
+        <p>Convert any file into a PDF — beautiful, fast, and safe.</p>
+      </div>
+    </div>
+    <div class="sign">Website for o nith</div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Upload a file</h2>
+      <p class="muted">Every upload returns a PDF. If your file can’t be rendered, the PDF will include your original file as an attachment.</p>
+
+      <div class="drop" id="drop">
+        <input id="file" type="file" />
+        <div class="dropInner">
+          <div class="icon">💌</div>
+          <div>
+            <div class="title">Drag & drop here</div>
+            <div class="sub">or click to choose a file</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="info">
+          <div class="name" id="name">No file selected</div>
+          <div class="meta" id="meta">Choose any file to convert.</div>
+        </div>
+        <div class="actions">
+          <button id="btn" disabled>Convert to PDF</button>
+          <button id="clear" class="ghost" disabled>Clear</button>
+        </div>
+      </div>
+
+      <div class="status" id="status"></div>
+    </section>
+
+    <section class="card soft">
+      <h3>How “all files” works</h3>
+      <ul>
+        <li><b>Images/Text</b> become normal readable PDFs.</li>
+        <li><b>DOCX/PPTX/XLSX</b> convert via LibreOffice.</li>
+        <li><b>ZIP/EXE/Unknown</b> become a PDF “wrapper” with your file attached inside.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>Made with ❤</span>
+    <span class="dot">•</span>
+    <span class="sign2">Website for o nith</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
